@@ -13,7 +13,7 @@ instance_type = {
 }
 amis = {
   us-west-2 = "ami-00c257e12d6828491" # Canonical, Ubuntu, 20.04 LTS, amd64 focal image
-  # us-east-2 = "ami-0430580de6244e02e" # Canonical, Ubuntu, 20.04 LTS, amd64 focal image
+  us-east-2 = "ami-0430580de6244e02e" # Canonical, Ubuntu, 20.04 LTS, amd64 focal image
 }
 projid    = "PHOENIX-123"
 imagename = "ami-00c257e12d6828491"
