@@ -1,10 +1,9 @@
 resource "null_resource" "webservers" {
-  provisioner "remote-exec" {
-    inline = <<EOH
+  provisioner "local-exec" {
+    command = <<EOH
       sleep 10
       ansible -i invfile pvt -m ping
-    EOH 
+    EOH
   }
   depends_on = [local_file.ansible-inventory-file]
 }
-
