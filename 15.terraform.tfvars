@@ -1,4 +1,4 @@
-aws_region           = "us-east-1"
+aws_region           = "us-west-2"
 vpc_cidr             = "10.37.0.0/16"
 vpc_name             = "Ansible-Vpc"
 key_name             = "keypacker"
