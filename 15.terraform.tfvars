@@ -1,9 +1,9 @@
 aws_region           = "us-west-2"
-vpc_cidr             = "172.37.0.0/16"
+vpc_cidr             = "172.38.0.0/16"
 vpc_name             = "Ansible-Vpc"
 key_name             = "keypacker"
-public_subnet_cidrs  = ["172.37.1.0/24", "172.37.2.0/24", "172.37.3.0/24"]    #List
-private_subnet_cidrs = ["172.37.10.0/24", "172.37.20.0/24", "172.37.30.0/24"] #List
+public_subnet_cidrs  = ["172.38.1.0/24", "172.38.2.0/24", "172.38.3.0/24"]    #List
+private_subnet_cidrs = ["172.38.10.0/24", "172.38.20.0/24", "172.38.30.0/24"] #List
 azs                  = ["us-west-2a", "us-west-2b", "us-west-2c"]             #List
 environment          = "production"
 instance_type = {
